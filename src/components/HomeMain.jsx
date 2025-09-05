@@ -11,8 +11,8 @@ import AppartmentPlans from "./AppartmentPlans";
 import PropertyFeatures from "./PropertyFeatures";
 import BlogSection from "./BlogSection";
 import TestimonialSlider from "./TestimonialSlider";
-import RequestVisitForm from "./RequestVisitForm.JSX";
 import LogoSlider from "./LogoSlider";
+import Requestreview from "./Requestreview";
 
 const HomeMain = () => {
   return (
@@ -29,7 +29,7 @@ const HomeMain = () => {
       <PropertyFeatures />
       <BlogSection />
       <TestimonialSlider />
-      <RequestVisitForm />
+      <Requestreview/>
       <LogoSlider/>
     </div>
   );

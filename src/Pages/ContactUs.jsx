@@ -1,12 +1,14 @@
 import React from 'react'
-import RequestVisitForm from '../components/RequestVisitForm.JSX'
+
+import Requestreview from '../components/Requestreview';
 
 const ContactUs = () => {
   return (
     <div>
-      <RequestVisitForm/>
+        
+          <Requestreview/>
     </div>
   )
 }
 
-export default ContactUs
+export default ContactUs;
